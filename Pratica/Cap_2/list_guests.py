@@ -11,8 +11,8 @@ invite.pop()
 
 invite_len = len(invite)
     
-print ('olá, ' + (invite[0]) + ' wonld  would to go a dinner in weekend')
-print ('olá, ' + (invite[1]) + ' wonld  would to go a dinner in weekend')
+print ('olá, ' + (invite[0].title()) + ' wonld  would to go a dinner in weekend')
+print ('olá, ' + (invite[1].title()) + ' wonld  would to go a dinner in weekend')
 
 print ("\nkaio can't going a dinner in weekend")
 
