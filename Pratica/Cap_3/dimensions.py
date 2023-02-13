@@ -1,1 +1,1 @@
-dimension = (20,200)
+dimension = (200,50)
