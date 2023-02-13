@@ -2,7 +2,7 @@ pizzas = [
     'catupiri',
     'calabresa',
     'mosarela',
-          ]
+    ]
 pizzas.append(
     "peperone"
     )
