@@ -9,7 +9,7 @@ print("\nlist two:")
 print(friends_pizzas)
 
 for pizza in pizzas: 
-    print ('\nmy favorite pizzas are: ' + pizza.title() + '.\n')
+    print('\nmy favorite pizzas are: ' + pizza.title() + '.\n')
     
 for pizza in friends_pizzas: 
-    print ('\nmy friends favorite pizzas are: ' + pizza.title() + '.')
+    print('\nmy friends favorite pizzas are: ' + pizza.title() + '.')

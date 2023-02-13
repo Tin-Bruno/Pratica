@@ -6,4 +6,4 @@ for food in buffet:
 buffet = ('bife','repolho','salada','peixe','arroz')
 print('\nCardapio modified: ')
 for food in buffet:
-    print (food)
+    print(food)
