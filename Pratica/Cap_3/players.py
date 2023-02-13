@@ -4,5 +4,5 @@ players = [
     'michael', 
     'florence', 
     'eli',
-           ]
+    ]
 print(players[-3:])

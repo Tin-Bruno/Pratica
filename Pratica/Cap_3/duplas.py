@@ -5,13 +5,10 @@ buffet = (
     'frango',
     'arroz',
           )
-print(
-    '\noriginal Cardapio: '
-      )
+print('\noriginal Cardapio is: ')
 for food in buffet:
-    print(
-        food
-          )
+    print(food)
+
 buffet = (
     'bife',
     'repolho',
@@ -19,10 +16,6 @@ buffet = (
     'peixe',
     'arroz',
           )
-print(
-    '\nCardapio modified: '
-      )
+print('\nCardapio modified is: ')
 for food in buffet:
-    print(
-        food
-          )
+    print(food)
