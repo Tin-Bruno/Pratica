@@ -9,8 +9,8 @@ for food in my_foods:
 for food in friend_foods:
     print ("\nfriend's favorite food is " + food + ".\n")
 
-print ("\nthe three fist itens are:")
-print (my_foods[0:3])
+print("\nthe three fist itens are:")
+print(my_foods[0:3])
 
 print("\nthe last three items is:")
-print (my_foods[-3:])
+print(my_foods[-3:])
