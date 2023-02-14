@@ -1,8 +1,2 @@
-players = [
-    'charles',
-    'martina',
-    'michael',
-    'florence',
-    'eli',
-    ]
+players = ['charles', 'martina', 'michael', 'florence', 'eli',]
 print(players[-3:])
