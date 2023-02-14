@@ -1,11 +1,11 @@
 Cars = [
-    'audi',
+    'Audi',
     'bmw',
     'subaru',
     'toyota',
     ]
 for car in Cars:
-    if car == 'bmw':
-        print(car.upper())
+    if car.lower() == 'audi':
+        print(car.lower())
     else:
         print(car.title())
