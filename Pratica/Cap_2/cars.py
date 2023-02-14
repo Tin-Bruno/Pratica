@@ -1,4 +1,9 @@
-cars = ['bmw', 'audi', 'toyota','subaru']
+cars = [
+    'bmw',
+    'audi',
+    'toyota',
+    'subaru'
+    ]
 print('here is the original list: ')
 print(cars)
 print('\nhere is the sort list: ')
