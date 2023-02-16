@@ -5,4 +5,3 @@ if age >= 18:
 else:
     print("You are young anough to vote")
     print("Please register to vote as soon as you turn 18!")
-    
