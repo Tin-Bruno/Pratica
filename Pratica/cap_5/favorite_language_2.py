@@ -6,7 +6,7 @@ friends = ['jen', 'sarah',]
 for name in favorite_languages.keys():
     print(name.title())
     if name in friends:
-        print("Hi " 
+        print("Hi "
               + name.title()
               + ", i see you favorite language is "
               + favorite_languages[name])
