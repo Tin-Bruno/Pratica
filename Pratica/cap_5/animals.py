@@ -5,6 +5,6 @@ pets = {'Tobi': {'animal': 'dog',
         'Simba': {'animal': 'dog',
                   'owner': 'henrigue'}}
 for name, pet in pets.items():
-    print('Name is :', name)
-    print('\tAnimal is :', pet['animal'])
-    print('\tOwner is :', pet['owner'])
+    print('Name is :' + name
+          + '\n', '\tAnimal is :', pet['animal']
+          + '\n', '\tOwner is :', pet['owner'])

@@ -8,7 +8,7 @@ cities = {'São Paulo': {'location': 'Brazil',
                     'population': 9000000,
                     'Fact': 'Tokyo is the capital of Japan.'}}
 for city, info in cities.items():
-    print('City is: ' + city.title())
-    print('\tLocation is: ' + info['location'])
-    print('\tPopulation is: ' + str(info['population']))
-    print('\tFact is: ' + info['Fact'])
+    print('City is: ' + city.title()
+          + '\n', '\tLocation is: ', info['location']
+          + '\n', '\tPopulation is: ', str(info['population'])
+          + '\n', '\tFact is: ', info['Fact'])
