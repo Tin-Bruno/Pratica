@@ -6,7 +6,7 @@ cars = {'toyota': {'cost': 200000},
 search = input("what car would you like to search for? ")
 if search in cars:
     print(f"{search.title()} We have the car")
-    Price = input("Would you to know the cost of the car? ")
+    Price = input("Would you to know the cost of the car?")
     if Price == 'yes':
         print(f"{search.title()} costs {cars[search]['cost']}")
     else:
