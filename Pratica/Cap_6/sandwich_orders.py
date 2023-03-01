@@ -1,5 +1,10 @@
-sandwich_orders = ['presunto', 'salad', 'bacon', 'cheese', 'meat']
+sandwich_orders = ['presunto', 'pastami', 'salad', 'bacon',
+                   'pastami', 'cheese', 'meat', 'pastami']
 finally_sandwiches = []
+while 'pastami' in sandwich_orders:
+    print("Sorry, we don't have that sandwich for Pastami.")
+    sandwich_orders.remove('pastami')
+
 while sandwich_orders:
     making_sandwich = sandwich_orders.pop()
     print("Sandwich makeing: ", making_sandwich.title())
