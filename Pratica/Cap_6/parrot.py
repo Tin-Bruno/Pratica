@@ -5,5 +5,6 @@ while ACTIVE:
     message = input(prompt.lower())
     if message.lower() == 'quit':
        ACTIVE = False
+
     else:
         print(message)
